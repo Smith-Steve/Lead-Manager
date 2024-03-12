@@ -25,7 +25,13 @@ SECRET_KEY = 'django-insecure-bz^j2r16zq)efbrc*fjq#5%aqt1709r02$!$7el4*nx)cwj6(3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['kubernetes.docker.internal', 'localhost']
+ALLOWED_HOSTS = ['kubernetes.docker.internal', 'localhost', '127.0.0.1']
+
+REST_FRAMEWORK = {
+    'DEFAULT_PARSER_CLASSES': [
+        'rest_framework.parsers.JSONParser',
+    ]
+}
 
 
 # Application definition
