@@ -27,12 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['kubernetes.docker.internal', 'localhost', '127.0.0.1']
 
-REST_FRAMEWORK = {
-    'DEFAULT_PARSER_CLASSES': [
-        'rest_framework.parsers.JSONParser',
-    ]
-}
-
 
 # Application definition
 
@@ -44,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'leads',
-    'rest_framework'
+    'rest_framework',
     'frontend'
 ]
 
