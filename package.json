@@ -1,11 +1,11 @@
 {
   "name": "lead-manager",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000L\u0000e\u0000a\u0000d\u0000-\u0000M\u0000a\u0000n\u0000a\u0000g\u0000e\u0000r\u0000\r\u0000 \u0000\r\u0000 \u0000#\u0000#\u0000 \u0000S\u0000t\u0000a\u0000r\u0000t\u0000 \u0000A\u0000p\u0000p\u0000l\u0000i\u0000c\u0000a\u0000t\u0000i\u0000o\u0000n\u0000 \u0000I\u0000n\u0000s\u0000t\u0000r\u0000u\u0000c\u0000t\u0000i\u0000o\u0000n\u0000s\u0000:\u0000\r\u0000 \u0000-\u0000 \u0000'\u0000'\u0000'\u0000P\u0000I\u0000P\u0000E\u0000N\u0000V\u0000 \u0000S\u0000h\u0000e\u0000l\u0000l\u0000'\u0000'\u0000'\u0000\r\u0000 \u0000-\u0000 \u0000C\u0000D\u0000 \u0000i\u0000n\u0000t\u0000o\u0000 \u0000'\u0000l\u0000e\u0000a\u0000d\u0000m\u0000a\u0000n\u0000a\u0000g\u0000e\u0000r\u0000'\u0000 \u0000f\u0000i\u0000l\u0000e\u0000.\u0000\r\u0000 \u0000-\u0000 \u0000'\u0000'\u0000'\u0000p\u0000y\u0000t\u0000h\u0000o\u0000n\u0000 \u0000m\u0000a\u0000n\u0000a\u0000g\u0000e\u0000.\u0000p\u0000y\u0000 \u0000r\u0000u\u0000n\u0000s\u0000e\u0000r\u0000v\u0000e\u0000r\u0000'\u0000'\u0000'\u0000",
+  "description": "Steve Smith - Python/React Tutorial",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development ./leadmanager/frontend/src/index.js --output ./leadmanager/frontend/static/main.js",
-    "build": "webpack --mode production ./leadmanager/frontend/src/index.js --output ./leadmanager/frontend/static/main.js"
+    "dev": "webpack --mode development ./leadmanager/frontend/src/index.js --o ./leadmanager/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./leadmanager/frontend/src/index.js --output ./leadmanager/frontend/static/frontend/main.js"
   },
   "keywords": [],
   "author": "",
