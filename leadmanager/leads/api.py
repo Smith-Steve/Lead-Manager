@@ -10,4 +10,3 @@ class LeadViewSet(viewsets.ModelViewSet):
     queryset = Lead.objects.all() # Doesn't appear that Lead, or its parents, have an 'objects' method. Got lost here.
     permission_classes = [permissions.AllowAny]
     serializer_class = LeadSerializer
-    print("This is the viewset.")
