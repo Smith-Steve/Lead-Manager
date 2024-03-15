@@ -1,15 +1,20 @@
-import { GET_LEADS } from '../actions/types.js'
+import { DELETE_LEAD, GET_LEADS } from '../actions/types.js';
 
 const initialState = {
-    leads: []
-}
+  leads: [],
+};
 
 export default function (state = initialState, action) {
-    switch(action.type) {
-        case GET_LEADS:
-            return ({...state,
-            leads: action.payload})
-        default:
-            return state
-    };
+  switch (action.type) {
+    case GET_LEADS:
+      return { ...state, leads: action.payload };
+    case DELETE_LEAD:
+      //This returns everything that does not match the id of the item in the payload.
+      return {
+        ...state,
+        leads: state.leads.filter((lead) => lead.id !== action.payload),
+      };
+    default:
+      return state;
+  }
 }
