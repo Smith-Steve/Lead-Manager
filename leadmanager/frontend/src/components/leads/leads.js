@@ -5,7 +5,10 @@ import { getLeads, deleteLead } from '../../actions/leads';
 
 export class Leads extends Component {
   static propTypes = {
+    //These are not absolutely necessary but it is good practice to add them.
     leads: PropTypes.array.isRequired,
+    getLeads: PropTypes.func.isRequired,
+    deleteLead: PropTypes.func.isRequired,
   };
   // We set up component did mount, and then
   // use the import statement for 'getLeads' and then we see that it is prop, and

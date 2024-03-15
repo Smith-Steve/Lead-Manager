@@ -5,6 +5,8 @@ import Header from './layout/Header';
 import { Provider } from 'react-redux';
 import store from '../store';
 
+//Alert Options
+
 class App extends Component {
   render() {
     return (
